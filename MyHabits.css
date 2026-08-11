@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111027;
+    color: white;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.sub {
+    color: #8a84a8;
+    margin-bottom: 30px;
+}
+
+.group-title {
+    color: #8f87c8;
+    font-size: 14px;
+    margin: 25px 0 12px;
+}
+
+.habit {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #1c1a36;
+    border: 1px solid #302c50;
+    border-radius: 18px;
+    padding: 18px 24px;
+    margin-bottom: 12px;
+}
+
+.habit.done {
+    border-color: #4d6728;
+}
+
+.habit-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 15px;
+    background: #29264b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #58d8ff;
+}
+
+.habit-content {
+    flex: 1;
+}
+
+.habit-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.habit-title h4 {
+    font-size: 17px;
+}
+
+.duration {
+    background: #28334a;
+    color: #52d9ff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.category {
+    color: #8f87c8;
+    font-size: 12px;
+}
+
+.progress {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 7px;
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #55d9ff;
+}
+
+.info {
+    color: #8a84a8;
+    font-size: 12px;
+}
+
+.check {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #55d9ff;
+    background: transparent;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.habit.done .check {
+    background: #77d931ec;
+    border-color: #99d450ae;
+    color: #111027;
+}
