@@ -1,91 +1,3 @@
-/* body{
-    background-color: rgb(30, 30, 46);
-    color: white;
-}
-.habit-circle{
-    width:30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 1px solid rgb(146, 146, 239);
-    
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.pages:hover{
-    color:lawngreen;
-    border:2px solid ;
-    border-color:rgb(129, 252, 7) ;
-    font-size: 20px;
-    padding: 5px;
-}
-.habit{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap:5px;
-    border-radius: 10px;
-}
-.card{
-       color: white;
-        background-color: rgba(78, 78, 111, 0.459);
-        padding: 10px;
-          border-radius: 10px;
-}
-.card h2{
-    border: 5px solid lawngreen;
-    border-radius: 50%;
-
-}
-.h2{
-     color:rgb(76, 142, 228);
-}
-.h{
-      color:rgb(255, 0, 195);
-}
-.h-2{
-       color:rgb(212, 0, 255);
-}
-.section-title{
-    display: flex;
-    justify-content:center;
-    flex-direction: column;
-      background-color: rgba(78, 78, 111, 0.459);
-      border-radius: 10px;
-      margin-top: 10px;
-      padding: 40px;
-      
-}
-.section-title div{
-     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.section-title .tasks{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-      background-color: rgba(78, 78, 111, 0.459);
-      border-radius: 10px;
-      margin-top: 10px;
-      
-}
-
-.section-title .tasks div{
-       display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column; 
-        padding: 5px;
-    
-}
-.section-title .tasks div h5{
-        color:rgb(254, 104, 219);
-   } */
-   /* ///////////////////////////////// */
-
  body{
     background-color: rgb(30, 30, 46);
     color: white;
@@ -355,7 +267,6 @@ header{
     overflow: hidden;
 }
 
-/* الجزء الغامق فوق الرقم */
 .day-box::before {
     content: "";
     position: absolute;
@@ -393,7 +304,7 @@ header{
     color: #aaff38;
 }
 
-/* النقطة تحت اليوم الحالي */
+
 .today i {
     display: block;
     width: 5px;
@@ -401,4 +312,12 @@ header{
     background: #aaff38;
     border-radius: 50%;
     margin: 8px auto 0;
+}
+.completed-bycategory {
+    background-color: #1d1a3d;
+    border: 1px solid #302c52;
+    border-radius: 22px;
+    padding: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
